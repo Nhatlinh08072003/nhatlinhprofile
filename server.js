@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
  res.sendFile(duongdanfile)
 })
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
 
 })
